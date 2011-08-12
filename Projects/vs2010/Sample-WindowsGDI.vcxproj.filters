@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Samples">
+			<UniqueIdentifier>{8A9BFFB9-CE0A-CC40-9896-5E87ECB63F32}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Samples\WindowsGDI">
+			<UniqueIdentifier>{16DECC71-9221-8C4E-924F-EF3704FE4D39}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\Samples\WindowsGDI\WindowsGDI.cpp">
+			<Filter>Samples\WindowsGDI</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Renderers">
+			<UniqueIdentifier>{CDD896E7-2ECE-DA44-A5E6-963568011726}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Renderers\OpenGL">
+			<UniqueIdentifier>{291BCF32-5B4A-B742-87C5-1012AA419FBB}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\Renderers\OpenGL\OpenGL.cpp">
+			<Filter>Renderers\OpenGL</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>
